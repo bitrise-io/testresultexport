@@ -1,0 +1,11 @@
+format_version: "10"
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: ""
+workflows:
+  test:
+    steps:
+    - go-test:
+        inputs:
+        - packages: |-
+            github.com/bitrise-steplib/step-custom-test-results-export/testresultexport
+            github.com/bitrise-steplib/step-custom-test-results-export/testresultexport_test
