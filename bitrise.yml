@@ -7,5 +7,5 @@ workflows:
     - go-test:
         inputs:
         - packages: |-
-            github.com/bitrise-steplib/step-custom-test-results-export/testresultexport
-            github.com/bitrise-steplib/step-custom-test-results-export/testresultexport_test
+            github.com/bitrise-io/testresultexport/testresultexport
+            github.com/bitrise-io/testresultexport/testresultexport_test
